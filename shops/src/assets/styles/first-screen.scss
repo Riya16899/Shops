@@ -1,0 +1,52 @@
+.home-wrap {
+    background-image: url("../images/Group\ 502.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 500px;
+}
+.shop-wrap {
+  background-image: url("../images/Group\ 503.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 500px;
+}
+.content-wrap {
+    margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.w-max-content {
+    width: max-content;
+}
+.search-input {
+    border-radius: 20px;
+    padding: 14px 14px 14px 22px !important;
+}
+.search-btn {
+    
+    border-radius: 0 20px 20px 0;
+    background-color: #43B028;
+    color: white
+    
+}
+
+
+.parent {
+    // background: gray;
+    // height: 300px;
+    // width: 300px;
+    position: relative;
+  }
+  
+  .child {
+    // background: orange;
+    // width: 100px;
+    // height: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    
+  }

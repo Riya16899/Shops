@@ -1,0 +1,89 @@
+.selection-btn {
+    
+    box-shadow: 0px 6px 25px rgba(7, 6, 6, 0.08);
+    border-radius: 3px;
+    padding: 20px;
+    width: 130px;
+    margin: 10px;
+}
+.btn-green {
+    background: #43B028;
+}
+.btn-white {
+    background: #FFFFFF;
+}
+
+.card-btn {
+    background: #43B028;
+    border-radius: 30px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    
+}
+.grid-item {
+    text-align: center;
+}
+@media (max-width: 480px) {
+    .grid-container {
+        display: block;
+    }
+    .selection-btn {
+        padding: 10px;
+    }
+}
+
+.page-item-prev {
+    width: 100px;
+    height: 40px;
+    background: #FFFFFF;
+    box-shadow: 0px 6px 18px rgba(7, 6, 6, 0.1);
+    border-radius: 30px;
+    text-align: center;
+    margin-right: 15px;
+}
+.page-item-next {
+    width: 100px;
+    height: 40px;
+    background: #FFFFFF;
+    box-shadow: 0px 6px 18px rgba(7, 6, 6, 0.1);
+    border-radius: 30px;
+    text-align: center;
+    padding: auto;
+    margin-left: 15px;
+}
+.page-link-prev {
+    color: #43B028;
+}
+.page-link-next {
+    color: #43B028;
+}
+.page-item .page-link {
+    color: #515151;
+    background-color: #FFFFFF;
+}
+.page-item.active .page-link {
+    color: #43B028;
+    background-color: #FFFFFF;
+}
+
+.notification {
+    
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    position: relative;
+    display: inline-block;
+    border-radius: 2px;
+  }
+.notification .badge {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    padding: 5px;
+    border-radius: 50%;
+    background: #FFFFFF;
+    color: black;
+  }
